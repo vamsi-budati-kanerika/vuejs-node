@@ -1,0 +1,28 @@
+{
+  "name": "vuejs-node",
+  "version": "1.0.0",
+  "description": "backend for vuejs app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run server",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vamsi-budati-kanerika/vuejs-node.git"
+  },
+  "author": "vamsi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vamsi-budati-kanerika/vuejs-node/issues"
+  },
+  "homepage": "https://github.com/vamsi-budati-kanerika/vuejs-node#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15",
+    "nodemon": "^2.0.6"
+  }
+}
